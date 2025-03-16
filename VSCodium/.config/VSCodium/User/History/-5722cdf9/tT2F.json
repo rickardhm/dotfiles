@@ -1,0 +1,6 @@
+{
+	// If set to `false`, configuration files processing will stop with this file.
+	// System administrators may use this option to prevent user/local preferences to override system defaults (unless Archey is run with `-c` option).
+	// Developers running Archey from sources should use this option to prevent upstream config.json from overriding their own configuration.
+	"allow_overriding": true
+}
