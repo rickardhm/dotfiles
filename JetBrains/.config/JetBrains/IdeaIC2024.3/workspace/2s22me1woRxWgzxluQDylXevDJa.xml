@@ -7,45 +7,61 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="2mba3pa58pehd">
+    <leaf ideFingerprint="2mba3pa58pehd" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="874">
-              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            <state relative-caret-position="560">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"pom.xml (camel-microservice-a)","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,88,10,31,105,99,111,110,115,47,114,101,112,111,115,105,116,111,114,121,76,105,98,114,97,114,121,76,111,103,111,46,115,118,103,18,21,105,99,111,110,115,47,101,120,112,117,105,47,109,97,118,101,110,46,115,118,103,26,17,99,111,109,46,105,110,116,101,108,108,105,106,46,106,97,118,97,40,-81,-67,-81,-7,-5,-1,-1,-1,-1,1,48,0]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"EipPatternsRouter.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 3,
-      "lastUsed": 1737642480629
+      "usageCount": 78,
+      "lastUsed": 1738484547768
     },
     "XML": {
-      "usageCount": 1,
-      "lastUsed": 1737639727467
+      "usageCount": 10,
+      "lastUsed": 1738399141839
+    },
+    "Properties": {
+      "usageCount": 8,
+      "lastUsed": 1738333013103
     }
   }
 }]]></component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find />
+      <find>kaf</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
-  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory"><![CDATA[{
   "changedPaths": [
-    "/home/rich/develop/camel-microservice-a/pom.xml",
     "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFirstTimerRouter.java",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java"
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/CurrencyExchange.java",
+    "/home/rich/develop/camel-microservice-a/src/main/resources/application.properties",
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/RestApiSenderRouter.java",
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/KafkaSenderRouter.java",
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/ActiveMqSenderRouter.java",
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java",
+    "/home/rich/develop/camel-microservice-a/pom.xml",
+    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -57,10 +73,13 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="3" lastUsage="1737642480629" />
+      <summary usageCount="78" lastUsage="1738484547768" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="8" lastUsage="1738333013103" />
     </language>
     <language id="XML">
-      <summary usageCount="1" lastUsage="1737639727467" />
+      <summary usageCount="10" lastUsage="1738399141839" />
     </language>
   </component>
   <component name="MavenProjectNavigator">
@@ -107,6 +126,13 @@
               <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/java}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a}" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="camel-microservice-a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-a}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-a/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
           <presentation>
@@ -142,11 +168,47 @@
               <presentation>
                 <attributes>
                   <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/csv" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="csv" />
+                <item name="dir{file:///home/rich/develop/camel-microservice-a/csv}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/hej" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="hej" />
+                <item name="dir{file:///home/rich/develop/camel-microservice-a/hej}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/hej.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="hej.json" />
+                <item name="dir{file:///home/rich/develop/camel-microservice-a/hej.json}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
                     <entry key="filePath" value="$PROJECT_DIR$/input" />
                   </map>
                 </attributes>
                 <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="input" />
                 <item name="dir{file:///home/rich/develop/camel-microservice-a/input}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="json" />
+                <item name="dir{file:///home/rich/develop/camel-microservice-a/json}" type="462c0819:PsiDirectoryNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -192,6 +254,15 @@
                       <presentation>
                         <attributes>
                           <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/ActiveMqSenderRouter.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ActiveMqSenderRouter" />
+                        <item name="ActiveMqSenderRouter" type="1a9f42e2:ClassTreeNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
                             <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/CamelMicroserviceAApplication.java" />
                           </map>
                         </attributes>
@@ -201,11 +272,38 @@
                       <presentation>
                         <attributes>
                           <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/CurrencyExchange.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="CurrencyExchange" />
+                        <item name="CurrencyExchange" type="1a9f42e2:ClassTreeNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="false" text="EipPatternsRouter.java" />
+                        <item name="EipPatternsRouter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/KafkaSenderRouter.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="KafkaSenderRouter" />
+                        <item name="KafkaSenderRouter" type="1a9f42e2:ClassTreeNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
                             <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java" />
                           </map>
                         </attributes>
-                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="MyFileRouter" />
-                        <item name="MyFileRouter" type="1a9f42e2:ClassTreeNode" />
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="false" text="MyFileRouter.java" />
+                        <item name="MyFileRouter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
                       </presentation>
                       <presentation>
                         <attributes>
@@ -215,6 +313,15 @@
                         </attributes>
                         <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="false" text="MyFirstTimerRouter.java" />
                         <item name="MyFirstTimerRouter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/RestApiSenderRouter.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="RestApiSenderRouter" />
+                        <item name="RestApiSenderRouter" type="1a9f42e2:ClassTreeNode" />
                       </presentation>
                     </presentation>
                   </presentation>
@@ -226,6 +333,33 @@
                     </attributes>
                     <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="resources" />
                     <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/static" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="static" />
+                      <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/resources/static}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/templates" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="templates" />
+                      <item name="dir{file:///home/rich/develop/camel-microservice-a/src/main/resources/templates}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/src/main/resources/application.properties" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="application.properties" />
+                      <item name="application.properties" type="ab9368bb:PsiFileNode" />
+                    </presentation>
                   </presentation>
                 </presentation>
                 <presentation>
@@ -246,6 +380,15 @@
                 </attributes>
                 <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
                 <item name="dir{file:///home/rich/develop/camel-microservice-a/target}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/xml" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="xml" />
+                <item name="dir{file:///home/rich/develop/camel-microservice-a/xml}" type="462c0819:PsiDirectoryNode" />
               </presentation>
               <presentation>
                 <attributes>
@@ -280,7 +423,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/mvnw" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw" />
                 <item name="mvnw" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -289,7 +432,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/mvnw.cmd" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw.cmd" />
+                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw.cmd" />
                 <item name="mvnw.cmd" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -320,22 +463,22 @@
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.500523" visible="true" weight="0.33011484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.500523" visible="true" weight="0.22938412" />
       <window_info id="Commit" order="1" weight="0.25" />
-      <window_info active="true" id="Bookmarks" order="2" sideWeight="0.49947697" side_tool="true" visible="true" weight="0.33011484" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Bookmarks" order="2" sideWeight="0.49947697" side_tool="true" visible="true" weight="0.22938412" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Build" order="4" />
+      <window_info anchor="bottom" id="Build" order="5" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights left="0.33011484" />
+      <unified_weights left="0.22938412" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>
@@ -343,45 +486,90 @@
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2670" y="163" width="406" height="627" key="#com.intellij.ide.util.MemberChooser" timestamp="1737642505653">
+    <state x="2507" y="180" width="736" height="641" key="#Inspections" timestamp="1737792122562">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2670" y="163" width="406" height="627" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737642505653" />
-    <state x="2365" y="114" key="SettingsEditor" timestamp="1737791828175">
+    <state x="2507" y="180" width="736" height="641" key="#Inspections/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737792122562" />
+    <state x="2652" y="-53" width="553" height="627" key="#com.intellij.ide.util.MemberChooser" timestamp="1738398715632">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2365" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737791828175" />
+    <state x="2652" y="-53" width="553" height="627" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1738398715632" />
+    <state x="2659" y="235" width="428" height="484" key="FileChooserDialogImpl" timestamp="1737800659454">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2659" y="235" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737800659454" />
+    <state x="2363" y="90" key="SettingsEditor" timestamp="1737791890716">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2363" y="90" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737791890716" />
     <state x="2543" y="221" key="search.everywhere.popup" timestamp="1737791805850">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2543" y="221" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737791805850" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/CamelMicroserviceAApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="40">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/RestApiSenderRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/MyFirstTimerRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        <state relative-caret-position="314">
+          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/KafkaSenderRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/CamelMicroserviceAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/ActiveMqSenderRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="100">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -390,8 +578,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="734">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/CurrencyExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

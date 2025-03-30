@@ -2,24 +2,41 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
+        <entry key="$USER_HOME$/develop/camel-microservice-b">
+          <value>
+            <RecentProjectMetaInfo frameTitle="camel-microservice-b" opened="true" projectWorkspaceId="2s7JJbZmlQn8F8WWvEZY43Cn1eP">
+              <option name="activationTimestamp" value="1738825162257" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.22562.218" />
+              <option name="buildTimestamp" value="1735896480000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="6" />
+              </option>
+              <frame x="2880" y="0" width="960" height="1054" extendedState="4" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1737800661279" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/develop/camel-microservice-a">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="2s22me1woRxWgzxluQDylXevDJa">
-              <option name="activationTimestamp" value="1737791828184" />
+            <RecentProjectMetaInfo frameTitle="camel-microservice-a – ActiveMqSenderRouter.java" opened="true" projectWorkspaceId="2s22me1woRxWgzxluQDylXevDJa">
+              <option name="activationTimestamp" value="1738825158744" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-243.22562.218" />
               <option name="buildTimestamp" value="1735896480000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
+              <frame x="1920" y="0" width="960" height="1054" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1737639508878" />
+              <option name="projectOpenTimestamp" value="1737800814528" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/develop/camel-microservice-a" />
+    <option name="lastOpenedProject" value="$USER_HOME$/develop/camel-microservice-b" />
     <option name="lastProjectLocation" value="$USER_HOME$/develop" />
   </component>
 </application>

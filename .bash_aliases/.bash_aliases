@@ -16,6 +16,9 @@ alias gclean="git reset --hard && git clean -xfd"
 alias gpr="git pull --rebase"
 alias ga="gitk --all &"
 
+# fuzzy finder
+alias z=fzf
+
 alias dag='dagbok.sh'
 
 alias grep='grep --color=auto'

@@ -3,6 +3,7 @@
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
         <entry key="$USER_HOME$/develop/camel-microservice-a" value="true" />
+        <entry key="$USER_HOME$/develop/camel-microservice-b" value="true" />
       </map>
     </option>
   </component>
