@@ -1,6 +1,12 @@
 " Rickard
 
+" enables loading pluging for specific file types
 filetype plugin indent on
+
+" vimwiki requirements
+set nocompatible
+
+" makes sure that syntax highlighting is set as expected by vimwiki
 syntax on
 
 " Automatically wrap text
@@ -14,9 +20,6 @@ set number
 
 " Status bar
 set laststatus=2
-
-set nocompatible
-
 
 " Call the .vimrc.plug file
 if filereadable(expand("~/.vimrc.plug"))
