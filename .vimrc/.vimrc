@@ -1,5 +1,9 @@
 " Rickard
-"Automatically wrap text
+
+filetype plugin indent on
+syntax on
+
+" Automatically wrap text
 set wrap
 
 " Encoding
@@ -12,8 +16,7 @@ set number
 set laststatus=2
 
 set nocompatible
-filetype plugin on
-syntax 
+
 
 " Call the .vimrc.plug file
 if filereadable(expand("~/.vimrc.plug"))
