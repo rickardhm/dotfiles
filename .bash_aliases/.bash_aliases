@@ -16,6 +16,12 @@ alias gclean="git reset --hard && git clean -xfd"
 alias gpr="git pull --rebase"
 alias ga="gitk --all &"
 
+# Maven
+alias mcp='mvn clean package'
+alias mcps='mvn clean package -DskipTests'
+alias mci='mvn clean install'
+alias mcis='mvn clean install -DskipTests'
+
 # fuzzy finder
 alias z=fzf
 
