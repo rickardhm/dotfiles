@@ -251,8 +251,7 @@ bar {
 # Display wallpaper
 #exec_always --no-startup-id feh --bg-scale /home/rich/Pictures/arch_wall.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/arch_wall.jp
-exec_always feh --bg-fill ~/Pictures/arch_wall.jpg
-
+exec_always feh --bg-scale ~/Pictures/arch_wall.jpg
 exec_always sxhkd
 
 # Key bindings for Media control keys
