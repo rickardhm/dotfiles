@@ -1,0 +1,16 @@
+# printscreen
+@Print
+ screenshot
+
+shift + @Print
+ screenshot select
+
+control + @Print
+ screenshot window
+
+super + m
+ xcowsay "Hello"
+
+# Show help
+super + slash
+    sxhkd-help

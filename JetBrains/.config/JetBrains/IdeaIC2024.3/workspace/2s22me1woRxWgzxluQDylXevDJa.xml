@@ -7,12 +7,12 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="2mba3pa58pehd" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="n8ub2vcuytov" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="560">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="180">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#970#971#0" expanded="true" />
@@ -21,15 +21,15 @@
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"EipPatternsRouter.java","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+        <tab>{&quot;tabTitle&quot;:&quot;EipPatternsRouter.java&quot;,&quot;foregroundColor&quot;:-2104859,&quot;textAttributes&quot;:{&quot;name&quot;:&quot;a&quot;},&quot;icon&quot;:[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}</tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 78,
-      "lastUsed": 1738484547768
+      "usageCount": 81,
+      "lastUsed": 1745137236978
     },
     "XML": {
       "usageCount": 10,
@@ -51,19 +51,19 @@
     </replaceStrings>
   </component>
   <component name="GitSEFilterConfiguration">{}</component>
-  <component name="IdeDocumentHistory"><![CDATA[{
-  "changedPaths": [
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFirstTimerRouter.java",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/CurrencyExchange.java",
-    "/home/rich/develop/camel-microservice-a/src/main/resources/application.properties",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/RestApiSenderRouter.java",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/KafkaSenderRouter.java",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/ActiveMqSenderRouter.java",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java",
-    "/home/rich/develop/camel-microservice-a/pom.xml",
-    "/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java"
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFirstTimerRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/CurrencyExchange.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/resources/application.properties&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/RestApiSenderRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/KafkaSenderRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/ActiveMqSenderRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/MyFileRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/pom.xml&quot;,
+    &quot;/home/rich/develop/camel-microservice-a/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java&quot;
   ]
-}]]></component>
+}</component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -73,7 +73,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="78" lastUsage="1738484547768" />
+      <summary usageCount="81" lastUsage="1745137236978" />
     </language>
     <language id="Properties">
       <summary usageCount="8" lastUsage="1738333013103" />
@@ -423,7 +423,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/mvnw" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw" />
+                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw" />
                 <item name="mvnw" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -432,7 +432,7 @@
                     <entry key="filePath" value="$PROJECT_DIR$/mvnw.cmd" />
                   </map>
                 </attributes>
-                <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw.cmd" />
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="mvnw.cmd" />
                 <item name="mvnw.cmd" type="ab9368bb:PsiFileNode" />
               </presentation>
               <presentation>
@@ -498,10 +498,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2659" y="235" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737800659454" />
-    <state x="2363" y="90" key="SettingsEditor" timestamp="1737791890716">
+    <state x="2357" y="18" width="1028" height="845" key="SettingsEditor" timestamp="1745137342566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2363" y="90" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737791890716" />
+    <state x="2357" y="18" width="1028" height="845" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1745137342566" />
     <state x="2543" y="221" key="search.everywhere.popup" timestamp="1737791805850">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -610,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_a/EipPatternsRouter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="180">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
@@ -620,5 +620,31 @@
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI" />
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>camel-microservice-a</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
   </component>
 </project>

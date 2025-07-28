@@ -8,6 +8,12 @@ alias la='l -a'
 alias lh='l -h'
 alias ltr='l -tr'
 
+alias gg='grep -irl'
+alias gh='history | grep'
+
+# alias to show the date
+alias da='date "+%Y-%m-%d %A %T %Z"'
+
 ## Git
 alias gs="git status"
 alias gd="git diff -w"
@@ -23,7 +29,7 @@ alias mci='mvn clean install'
 alias mcis='mvn clean install -DskipTests'
 
 # fuzzy finder
-alias z=fzf
+alias fz='fzf'
 
 alias dag='dagbok.sh'
 

@@ -7,7 +7,7 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf ideFingerprint="2mba3pa58pehd" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+    <leaf ideFingerprint="n8ub2vcuytov" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/CurrencyExchangeContoller.java">
           <provider editor-type-id="text-editor" selected="true">
@@ -26,8 +26,8 @@
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JAVA": {
-      "usageCount": 116,
-      "lastUsed": 1738334064205
+      "usageCount": 121,
+      "lastUsed": 1745133967451
     },
     "XML": {
       "usageCount": 7,
@@ -39,22 +39,22 @@
     }
   }
 }]]></component>
-  <component name="IdeDocumentHistory"><![CDATA[{
-  "changedPaths": [
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CamelMicroserviceBApplication.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/HejExchange.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CurrencyExchange.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchange.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeProcessor.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/ActiveMqReciveRouter.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/ActiveMqSenderRouter.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeTransformer.java",
-    "/home/rich/develop/camel-microservice-b/pom.xml",
-    "/home/rich/develop/camel-microservice-b/src/main/resources/application.properties",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/KafkaRecieverRouter.java",
-    "/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CurrencyExchangeContoller.java"
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CamelMicroserviceBApplication.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/HejExchange.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CurrencyExchange.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchange.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeProcessor.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/ActiveMqReciveRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/ActiveMqSenderRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeTransformer.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/pom.xml&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/resources/application.properties&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/KafkaRecieverRouter.java&quot;,
+    &quot;/home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b/CurrencyExchangeContoller.java&quot;
   ]
-}]]></component>
+}</component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -64,7 +64,7 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="JAVA">
-      <summary usageCount="116" lastUsage="1738334064205" />
+      <summary usageCount="121" lastUsage="1745133967451" />
     </language>
     <language id="Properties">
       <summary usageCount="5" lastUsage="1738333007887" />
@@ -116,6 +116,15 @@
               <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main/java}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel-microservice-b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-b}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-b/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/rich/develop/camel-microservice-b/src/main/java/se/rich/camel_microservice_b}" type="462c0819:PsiDirectoryNode" />
+              <item name="ActiveMqReciveRouter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="camel-microservice-b" type="b2602c69:ProjectViewProjectNode" />
@@ -196,6 +205,24 @@
                         </attributes>
                         <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="false" text="ActiveMqReciveRouter.java" />
                         <item name="ActiveMqReciveRouter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/ActiveMqReciveRouter.java" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ActiveMqReciveRouter" />
+                          <item name="ActiveMqReciveRouter" type="1a9f42e2:ClassTreeNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/ActiveMqReciveRouter.java" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="MyCurrencyExchangeProcessor" />
+                          <item name="MyCurrencyExchangeProcessor" type="1a9f42e2:ClassTreeNode" />
+                        </presentation>
                       </presentation>
                       <presentation>
                         <attributes>
@@ -401,7 +428,7 @@
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20798539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13700417" />
       <window_info id="Commit" order="1" weight="0.25" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -410,13 +437,13 @@
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.33025292" />
       <window_info anchor="bottom" id="Services" order="4" />
       <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Build" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
       <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.33025292" left="0.20798539" />
+      <unified_weights bottom="0.33025292" left="0.13700417" />
     </layoutV2>
     <recentWindows>
       <value>Project</value>
@@ -436,6 +463,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2611" y="249" width="528" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1737901981887" />
+    <state x="2659" y="235" width="428" height="484" key="FileChooserDialogImpl" timestamp="1745134050510">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2659" y="235" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1745134050510" />
     <state x="2411" y="159" width="928" height="684" key="Maven.ArtifactSearchDialog" timestamp="1737878596290">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -446,37 +477,8 @@
     <state x="2542" y="235" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1738334224672" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/HejExchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeProcessor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/CamelMicroserviceBApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/ActiveMqSenderRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/ActiveMqSenderRouter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/MyCurrencyExchangeTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -521,10 +523,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/CurrencyExchange.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/HejExchange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/CamelMicroserviceBApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/se/rich/camel_microservice_b/CurrencyExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#519#520#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />

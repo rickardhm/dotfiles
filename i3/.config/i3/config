@@ -14,12 +14,12 @@ set $mod Mod4
 # my setup
 # https://i3wm.org
 
+## dual monitors
 # use xrandr to se the name of the monitor (it may change, depending on your location)
 set $firstMonitor eDP-1
 set $secondMonitor HDMI-1
 
-
-#xrandr --output HDMi!-1 --auto --left-of eDP-1
+exec --no-startup-id xrandr --output $secondMonito --auto --left-of $firstMonito
 
 # Workspacec
 
@@ -37,7 +37,8 @@ workspace 10 output $secondMonitor
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:monospace 14
-font pango:Ubuntu Regular 14
+#font pango:Ubuntu Regular 14
+font pango:Meslo LGM Nerd Font 14
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -68,7 +69,12 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # keybinding to lock screen
 bindsym Control+Mod1+l exec "i3lock -c 000000"
 
-set $Locker i3lock && sleep 1
+# Shortcut for Lockscreen
+#bindsym $mod+x exec "i3lock --blur 9 -i /home/rich/Pictures/det-periodiska-systemet.png -c"
+
+set $Locker :w
+#set $Locker i3lock  && sleep 1
+set $Locker /home/rich/.config/i3Scripts/lock
 
 # copied from wiki.archlinux.org
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
@@ -246,6 +252,8 @@ bar {
 #exec_always --no-startup-id feh --bg-scale /home/rich/Pictures/arch_wall.jpg
 #exec_always --no-startup-id feh --bg-scale ~/Pictures/arch_wall.jp
 exec_always feh --bg-fill ~/Pictures/arch_wall.jpg
+
+exec_always sxhkd
 
 # Key bindings for Media control keys
 bindsym XF86AudioPlay exec playerctl play

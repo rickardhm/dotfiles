@@ -4,15 +4,15 @@
       <map>
         <entry key="$USER_HOME$/develop/camel-microservice-b">
           <value>
-            <RecentProjectMetaInfo frameTitle="camel-microservice-b" opened="true" projectWorkspaceId="2s7JJbZmlQn8F8WWvEZY43Cn1eP">
-              <option name="activationTimestamp" value="1738825162257" />
+            <RecentProjectMetaInfo frameTitle="camel-microservice-b – CurrencyExchangeContoller.java" projectWorkspaceId="2s7JJbZmlQn8F8WWvEZY43Cn1eP">
+              <option name="activationTimestamp" value="1745134083166" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-243.22562.218" />
               <option name="buildTimestamp" value="1735896480000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="6" />
               </option>
-              <frame x="2880" y="0" width="960" height="1054" extendedState="4" />
+              <frame x="0" y="0" width="960" height="1054" extendedState="6" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1737800661279" />
             </RecentProjectMetaInfo>
@@ -20,23 +20,39 @@
         </entry>
         <entry key="$USER_HOME$/develop/camel-microservice-a">
           <value>
-            <RecentProjectMetaInfo frameTitle="camel-microservice-a – ActiveMqSenderRouter.java" opened="true" projectWorkspaceId="2s22me1woRxWgzxluQDylXevDJa">
-              <option name="activationTimestamp" value="1738825158744" />
+            <RecentProjectMetaInfo frameTitle="camel-microservice-a – EipPatternsRouter.java" projectWorkspaceId="2s22me1woRxWgzxluQDylXevDJa">
+              <option name="activationTimestamp" value="1745137342574" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-243.22562.218" />
-              <option name="buildTimestamp" value="1735896480000" />
+              <option name="build" value="IC-243.26053.27" />
+              <option name="buildTimestamp" value="1742464260000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="5" />
               </option>
-              <frame x="1920" y="0" width="960" height="1054" extendedState="6" />
+              <frame x="1920" y="0" width="1920" height="1054" extendedState="6" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1737800814528" />
+              <option name="projectOpenTimestamp" value="1745137236975" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/develop/spacePicture">
+          <value>
+            <RecentProjectMetaInfo frameTitle="spacePicture – SpacePictureApplication.java" opened="true" projectWorkspaceId="2vzAIlDoQP1jMJBRVZ3yxFEzaQg">
+              <option name="activationTimestamp" value="1745859477668" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-243.26053.27" />
+              <option name="buildTimestamp" value="1742464260000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="1920" y="0" width="1920" height="1054" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1745137450934" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
-    <option name="lastOpenedProject" value="$USER_HOME$/develop/camel-microservice-b" />
+    <option name="lastOpenedProject" value="$USER_HOME$/develop/spacePicture" />
     <option name="lastProjectLocation" value="$USER_HOME$/develop" />
   </component>
 </application>

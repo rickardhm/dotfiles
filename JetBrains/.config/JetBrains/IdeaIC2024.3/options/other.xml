@@ -7,47 +7,54 @@
     <option name="fontSize" value="12.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
-  <component name="PropertyService">{
-  &quot;keyToString&quot;: {
-    &quot;LAST_CALCULATED_COLOR_INDEX_KEY&quot;: &quot;6&quot;,
-    &quot;MemberChooser.copyJavadoc&quot;: &quot;false&quot;,
-    &quot;MemberChooser.showClasses&quot;: &quot;true&quot;,
-    &quot;NextRunPlatformUpdateBuild&quot;: &quot;IC-243.23654.189&quot;,
-    &quot;NextRunPlatformUpdateSelfBuild&quot;: &quot;IC-243.22562.218&quot;,
-    &quot;NextRunPlatformUpdateVersion&quot;: &quot;2024.3.2.2&quot;,
-    &quot;RunOnceActivity.VFSInitializationConditionsToFusReporter&quot;: &quot;true&quot;,
-    &quot;SettingsSearchHistory&quot;: &quot;tabs&quot;,
-    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
-    &quot;build.toolwindow.Sync.selection.state&quot;: &quot;com.intellij.build.BuildTreeConsoleView&quot;,
-    &quot;defaultJdkConfigured&quot;: &quot;true&quot;,
-    &quot;enter_selection_count&quot;: &quot;5&quot;,
-    &quot;experimental.ui.on.first.startup&quot;: &quot;true&quot;,
-    &quot;experimental.ui.used.version&quot;: &quot;243.22562.218&quot;,
-    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
-    &quot;fontSizeToResetConsole&quot;: &quot;12.0&quot;,
-    &quot;fontSizeToResetEditor&quot;: &quot;12.0&quot;,
-    &quot;ift.hide.welcome.screen.promo&quot;: &quot;true&quot;,
-    &quot;installed.kotlin.plugin.version&quot;: &quot;243.22562.218-IJ&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rich/develop/camel-microservice-a&quot;,
-    &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,
-    &quot;previousColorScheme&quot;: &quot;_@user_Dark&quot;,
-    &quot;promo.framework.suggestion.dismissed.spring.boot&quot;: &quot;true&quot;,
-    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;IC-243.22562.218&quot;
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "7",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "NextRunPlatformUpdateBuild": "IC-251.23774.435",
+    "NextRunPlatformUpdateSelfBuild": "IC-243.26053.27",
+    "NextRunPlatformUpdateVersion": "2025.1",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "SettingsSearchHistory": "tabs",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
+    "com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor": "Sources",
+    "defaultJdkConfigured": "true",
+    "enter_selection_count": "5",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.26053.27",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "12.0",
+    "fontSizeToResetEditor": "12.0",
+    "got.it.tooltip.new.terminal.promotion.243": "1",
+    "ift.hide.welcome.screen.promo": "true",
+    "installed.kotlin.plugin.version": "243.26053.27-IJ",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "/home/rich/develop/spacePicture",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Dark",
+    "project.wizard.group": "NPW.MavenArchetype",
+    "promo.framework.suggestion.dismissed.spring.boot": "true",
+    "registry.to.advanced.settings.migration.build": "IC-243.26053.27"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;file.chooser.recent.files&quot;: [
-      &quot;/home/rich/develop/camel-microservice-b&quot;,
-      &quot;/home/rich/develop/camel-microservice-a&quot;
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/rich/develop/spacePicture",
+      "/home/rich/develop/camel-microservice-a",
+      "/home/rich/develop/camel-microservice-b"
     ],
-    &quot;fileTypeDetectors&quot;: [
-      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
-      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
     ]
   }
-}</component>
+}]]></component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="camel-microservice-b-history" project-path="$USER_HOME$/develop/camel-microservice-b" last-access-time="1737800666771" />
+      <command-history-file filename="spacePicture-history" project-path="/home/rich/develop/spacePicture" last-access-time="1745137617442" />
     </command-history-files>
   </component>
 </application>
