@@ -4,6 +4,8 @@ echo "loading bashrc..."
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
+
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
@@ -151,6 +153,7 @@ alias yayf="yay -Slq | fzf --multi --preview 'yay -Sii {1}' --preview-window=dow
 
 # Change directory aliases
 alias home='cd ~'
+alias cdw='cd $VIM_WIKI_HOME'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
