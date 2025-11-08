@@ -66,23 +66,21 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-# keybinding to lock screen
-bindsym Control+Mod1+l exec "i3lock -c 000000"
-
 # Shortcut for Lockscreen
 #bindsym $mod+x exec "i3lock --blur 9 -i /home/rich/Pictures/det-periodiska-systemet.png -c"
 
-set $Locker :w
-#set $Locker i3lock  && sleep 1
 set $Locker /home/rich/.config/i3Scripts/lock
+set $i3lockwall sh ~/bin/lock.sh
+bindsym $mod+Ctrl+Shift+l exec --no-startup-id $i3lockwall
+
 
 # copied from wiki.archlinux.org
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
-    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym l exec --no-startup-id $i3lockwall, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
-    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym s exec --no-startup-id $i3lockwall && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $i3lockwall && systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
 
@@ -163,9 +161,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# activate lockscreen
-bindsym $mod+x exec /home/$USER/.config/scripts/lock
-
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -244,14 +239,14 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status -c ~/.config/i3status/i3status.conf
-	#status_command i3blocks -c ~/.config/i3blocks/i3blocks.conf
 	font pango: Droid Sans Mono 14
 }
 
 # Display wallpaper
 #exec_always --no-startup-id feh --bg-scale /home/rich/Pictures/arch_wall.jpg
-#exec_always --no-startup-id feh --bg-scale ~/Pictures/arch_wall.jp
-exec_always feh --bg-scale ~/Pictures/arch_wall.jpg
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/arch_wall.jpg
+exec_always feh --bg-scale ~/dotfiles/i3Scripts/images/arch_wall.jpg
+#exec_always feh --bg-scale ~/Pictures/arch_wall.jpg
 exec_always sxhkd
 
 # Key bindings for Media control keys
