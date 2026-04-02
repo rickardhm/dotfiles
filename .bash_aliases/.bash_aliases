@@ -10,6 +10,7 @@ alias ltr='l -tr'
 
 alias gg='grep -irl'
 alias gh='history | grep'
+alias hz='history | fzf'
 
 # alias to show the date
 alias da='date "+%Y-%m-%d %A %T %Z"'
@@ -28,8 +29,13 @@ alias mcps='mvn clean package -DskipTests'
 alias mci='mvn clean install'
 alias mcis='mvn clean install -DskipTests'
 
+# Podman
+alias pps='podman ps'
+alias pup='podman-compose up -d'
+alias pdown='podman-compose down -v'
+
 # fuzzy finder
-alias fz='fzf'
+alias z='fzf'
 
 alias dag='dagbok.sh'
 
