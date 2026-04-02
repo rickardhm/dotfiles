@@ -18,7 +18,7 @@ let g:vimwiki_list = [{
 
 " template for the diary, prints todays date on top of the file when a new
 " diary is created
-autocmd BufNewFile ~/Nextcloud/vimwiki/diary/* :silent 0r !printf "\# $(date '+\%Y-\%m-\%d')\n- Y:\n- D:\n\n\#\# ToDo\n- [ ]"
+autocmd BufNewFile ~/Nextcloud/vimwiki/diary/* :silent 0r !printf "\# $(date '+\%Y-\%m-\%d')\n\#\# Location:\n- \n\#\# Y:\n- \n\#\# D:\n- \n\n\#\# ToDo\n"
 
 " Automatically wrap text
 set wrap
@@ -38,12 +38,17 @@ set laststatus=2
 vnoremap <C-c> :w !xclip -selection clipboard<CR><CR>
 vnoremap <C-v> :r !xclip -o -selection clipboard<CR>
 
+" https://linuxhandbook.com/install-vim-plugins/
+" To download and install the plugins, open Vim and then type the :PlugInstall command. 
+" Doing so will open up a pane to the left side and you will get a live view of the plugins being cloned and installed.
 call plug#begin()
 
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'rust-lang/rust.vim'
 Plug 'mattn/calendar-vim'
+Plug 'stephpy/vim-yaml'
+Plug 'IN3D/vim-raml'
 
 call plug#end()
 
