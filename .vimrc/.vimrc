@@ -35,8 +35,8 @@ set number
 " Status bar
 set laststatus=2
 
-vnoremap <C-c> :w !xclip -selection clipboard<CR><CR>
-vnoremap <C-v> :r !xclip -o -selection clipboard<CR>
+" make Vim use the system clipboard
+set clipboard=unnamedplus
 
 " https://linuxhandbook.com/install-vim-plugins/
 " To download and install the plugins, open Vim and then type the :PlugInstall command. 
