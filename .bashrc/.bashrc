@@ -6,6 +6,10 @@ echo "loading bashrc..."
 
 export VIM_WIKI_HOME=/home/rich/nextcloud/obsidianVault/richVault/vimwiki
 
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
+fi
+
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
@@ -395,6 +399,7 @@ trim() {
 	echo -n "$var"
 }
 
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
