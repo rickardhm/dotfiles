@@ -15,6 +15,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 export PATH=$PATH:$PATH:~/bin
+export PATH=$PATH:$PATH:.local/bin
 
 IDEA_HOME=~/program/idea-IC-242.23726.103
 export PATH=$PATH:$IDEA_HOME/bin
@@ -405,3 +406,4 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 iatest=$(expr index "$-" i)
+export PATH="$HOME/.local/bin:$PATH"

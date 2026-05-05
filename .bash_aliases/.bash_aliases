@@ -7,7 +7,7 @@ alias l='eza -lh'
 alias la='eza -lah'
 alias ltr='ls -ltr'
 
-alias gg='grep -irl'
+alias gg='grep -irl --exclude-dir=target'
 alias gh='history | grep'
 alias hz='history | fzf'
 
