@@ -1,6 +1,19 @@
 #!/usr/bin/env bash
 echo "loading bashrc..."
 
+# Sets environment variables
+set -o allexport
+source ~/.env
+set +o allexport
+
+## setup for Claude code
+ANTHROPIC_BASE_URL=https://openrouter.ai/api
+#export ANTHROPIC_BASE_URL=http://localhost:11434/
+ANTHROPIC_AUTH_TOKEN="$OPENROUTER_API_KEY"
+ANTHROPIC_API_KEY=""
+#export ANTHROPIC_API_KEY="ollama"
+CLAUDE_MODER=meta-llama/llama-3.3-70b-instruct:free
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -62,9 +75,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-# Seeing as other scripts will use it might as well export it
-export LINUXTOOLBOXDIR="$HOME/linuxtoolbox"
-
 # Allow ctrl-S for history navigation (with ctrl-R)
 [[ $- == *i* ]] && stty -ixon
 
@@ -78,8 +88,6 @@ if [[ $iatest -gt 0 ]]; then bind "set show-all-if-ambiguous On"; fi
 # Set the default editor
 export EDITOR=vim
 export VISUAL=vim
-alias spico='sudo pico'
-alias snano='sudo nano'
 alias svim='sudo vim'
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep

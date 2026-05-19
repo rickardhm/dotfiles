@@ -1,0 +1,58 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/develop/private/foo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="foo – Main.java" projectWorkspaceId="3DfR7vMJO7Aa1IJQABonHIlCsb8">
+              <option name="activationTimestamp" value="1779005357730" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-261.23567.138" />
+              <option name="buildTimestamp" value="1776920400000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="2" />
+              </option>
+              <frame x="10" y="20" width="1876" height="1006" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1778828357828" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/develop/private/WhereIsTheBus">
+          <value>
+            <RecentProjectMetaInfo frameTitle="WhereIsTheBus" projectWorkspaceId="3DqMstclsnwwYGFwBKcBTrrMsWY">
+              <option name="activationTimestamp" value="1779006675428" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-261.23567.138" />
+              <option name="buildTimestamp" value="1776920400000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="10" y="20" width="1876" height="1006" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1779005359049" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/develop/private/whereIsTheBus">
+          <value>
+            <RecentProjectMetaInfo frameTitle="whereIsTheBus – TrafiklabClient.java" opened="true" projectWorkspaceId="3DqPYmMaXbncgBOmKFsOfD3l3UT">
+              <option name="activationTimestamp" value="1779172663694" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-261.23567.138" />
+              <option name="buildTimestamp" value="1776920400000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="10" y="20" width="1290" height="730" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1779006676332" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/develop/private/whereIsTheBus" />
+    <option name="lastProjectLocation" value="$USER_HOME$/develop/private" />
+  </component>
+</application>
